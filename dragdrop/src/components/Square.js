@@ -4,8 +4,8 @@ export default function Square ({black,children}) {
     const stroke = black?"white":"black"
 ;    return (<div style={{
         backgroundColor:fill,
-        height :"200px",
-        width:"200px",
+        height :"100%",
+        width:"100%",
         color:stroke
         }}>
         {children}
